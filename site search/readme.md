@@ -41,4 +41,5 @@ LIMIT = 6 # The search phrase appears this many times in the Nav, so only count 
 ```
 
 **Run**
+
 Run the the script by double-clicking siteSearch.py or from the command prompt with the command `python siteSearch.py`.
