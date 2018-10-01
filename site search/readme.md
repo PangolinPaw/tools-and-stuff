@@ -6,7 +6,8 @@ Given a list of URLs and a word or phrase, this script will find each occurrence
 ### Installation
 **Requirements:**
 
-- Python 2.7
+- [Python 2.7](https://www.python.org/downloads/release/python-2714/)
+- [pip](https://stackoverflow.com/a/12476379)
 
 **Installation**
 
