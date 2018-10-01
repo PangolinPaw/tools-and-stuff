@@ -15,6 +15,8 @@ SEARCH_FOR = ['stocks and shares',
 
 URL_LIST = 'urls.txt'
 
+LIMIT = 6 # The search phrase appears this many times in the Nav, so only count 7+ occurences
+
 SPEED = 'medium' # 'slow', 'medium' (recommended) or 'fast'
 
 
@@ -63,7 +65,7 @@ def main():
 		html = r.text
 
 		for phrase in SEARCH_FOR:
-			found = findPhrase(phrase, html, limit=6)
+			found = findPhrase(phrase, html, limit=LIMIT)
 
 			results.append([url, phrase, found])
 			if found:
