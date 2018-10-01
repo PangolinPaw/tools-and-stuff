@@ -36,7 +36,9 @@ SEARCH_FOR = ['stocks and shares',
 ```
 **Exclude nav & footer items**
 If your search term appears on every page, for example in a common navigation or footer, then you can set a `LIMIT` value. E.g.:
-`LIMIT = 6 # The search phrase appears this many times in the Nav, so only count 7+ occurences`
+```python
+LIMIT = 6 # The search phrase appears this many times in the Nav, so only count 7+ occurences
+```
 
 **Run**
 Run the the script by double-clicking siteSearch.py or from the command prompt with the command `python siteSearch.py`.
